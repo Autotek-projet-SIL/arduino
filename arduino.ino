@@ -7,14 +7,14 @@
 #include <LiquidCrystal_I2C.h> //library for lcd
 
 //speed
-#define Speed 170
+#define Speed 200
 
 //ultrasonic distance sensor
-#define SIG_PIN A4
+#define SIG_PIN A0
 
 //ir sensor
-#define irLeft 53
-#define irRight 52
+#define irLeft 22
+#define irRight 23
 
 
 char value; // caracter read by the serial input
